@@ -1,0 +1,54 @@
+body
+{
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+ background-color:#292728;
+}
+#logo
+{
+width: 100px;
+height: 100px;
+margin-top: auto;
+float:left;
+margin-left: 100px;
+}
+#header
+{
+ width:100%;
+ padding:0px;
+ text-align:center;
+ height:70px;
+ line-height:70px;
+}
+#header li
+{
+ margin-top: 10px;
+ display:inline-block;
+ margin-right:25px;
+ font-size:17px;
+ color:#ffffff;
+ font-weight:bold;
+ cursor:pointer;
+}
+#header #site_name
+{
+ text-align:left;
+ width:680px;
+ font-size:35px;
+ margin-left:20px;
+}
+#home,#about,#contact
+{
+ margin-top:100px;
+ width:90%;
+ height:400px;
+ margin-left:5%;
+ padding:50px;
+ box-sizing:border-box;
+ background-color:#ff0055;
+ border-radius:10px;
+ color:white;
+}
