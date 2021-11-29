@@ -1,12 +1,21 @@
 .HomePage{
-    background-image: url(img/bridge.jpg); 
+    /* background-image: url(img/bgimg.jpg); 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #272727;
 }
 
 .head-jtj{ 
     border-bottom: 1px solid #ffff; 
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+.body-contents{
+    margin-top: 100px;
 }
 
 .nav-jtj{
