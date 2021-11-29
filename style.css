@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 .HomePage{
     /* background-image: url(img/bgimg.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
     background-color: #272727;
+}
+
+/* .HomePage :is(h4, h1){
+    font-family: 'Roboto', sans-serif;
+} */
+.HomePage h4{
+    font-family: 'Roboto', sans-serif;
 }
 
 .head-jtj{ 
@@ -20,6 +29,18 @@
 
 .nav-jtj{
     font-size: 17px;
+}
+
+.nav-jtj li:hover{
+    transform: scale(1.05);
+    transition-property: all;
+    transition-duration: 0.2s;
+    box-shadow: 4px 4px 8px lightslategray;
+    border-radius: 5px;
+}
+
+.nav-jtj li a:hover{
+    color: #fff;
 }
 
 .about{
