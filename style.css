@@ -84,3 +84,7 @@
     transition-property: all;
     transition-duration: 0.3s;
 }
+
+.card-body{
+    z-index: 0;
+}
